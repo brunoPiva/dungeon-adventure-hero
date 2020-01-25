@@ -2,9 +2,9 @@ package com.brunoPiva.util;
 
 import java.util.Scanner;
 
-public class StartMenu {
+public class Menu {
 	
-	public boolean initMenu() {
+	public boolean mainMenu() {
 		Scanner read = new Scanner(System.in);
 		System.out.println("Dungeon Adventure Hero");
 		System.out.println("1 - Start New Adventure");

@@ -1,14 +1,14 @@
 package com.brunoPiva.game;
 
-import com.brunoPiva.util.StartMenu;
+import com.brunoPiva.util.Menu;
 
 public class Game {
 
 	public static void main(String[] args) {
-		StartMenu menu = new StartMenu();
+		Menu menu = new Menu();
 		boolean isRunning = true;
 		while(isRunning) {
-			isRunning = menu.initMenu();
+			isRunning = menu.mainMenu();
 		}
 	}
 
